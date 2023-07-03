@@ -1,5 +1,5 @@
 @extends('layout.layout')
-@section('title', 'Duck Inc. | Login')
+@section('title', 'Duck Inc. | Forget Password')
 @section('content')
 
     <section class="login">
@@ -47,31 +47,24 @@
 
 
                             </div>
-                            <form action="{{route('login.post')}}" method="POST">
+                            <form action="{{route('forget.passwordPost')}}" method="POST">
                                 @csrf
                                 <!-- 2 column grid layout with text inputs for the first and last names -->
                                 <div class="row">
                                     <div class="col-md-8 mb-2 mx-auto">
-                                        <p1>Welcome!</p1><br>
-                                        <p style="color:#245953">Please log in your correct credentials.</p>
+                                        <p1>Hey There!</p1><br>
+                                        <p style="color:#245953">Seems As If You Forgot Your Credentials.</p>
+                                        <p style="color:#245953">We will send a link to your email , use that link.</p>
                                         <!-- Email input -->
                                         <div class="form-outline mb-3">
                                             <input type="email"  class="form-control"
                                                         placeholder="Email Address" name="email" />
                                         </div>
-                                        <!-- Password input -->
-                                        <div class="form-outline mb-3">
-                                            <input type="password"  class="form-control"
-                                                placeholder="Password" name="password" />
-                                        </div>
-                                        <div class="d-flex justify-content-around align-items-center mb-4">
-                                            <a href="{{route('signup')}}">Don't Have An Account?</a>
-                                            <a href="{{route('forget.password')}}">Forgot password?</a>
-                                        </div>
+
                                             <!-- Submit button -->
                                             <div class="d-flex justify-content-around align-items-center mb-4">
                                                 <button type="submit" class="btn btn-success btn-block">
-                                                    Log In
+                                                    Sumbit
                                                 </button>
 
                                             </div>
@@ -85,3 +78,4 @@
         </div>
     </section>
 @endsection
+
