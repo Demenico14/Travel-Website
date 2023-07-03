@@ -16,10 +16,10 @@ Laravel Travel Website
         - Dominic
 
 
-![Image1](1.png)
-![Image2](2.png)
-![Image3](3.png)
-![Image4](4.png)
+![Image1](images/1.png)
+![Image2](images/2.png)
+![Image3](images/3.png)
+![Image4](images/4.png)
 
 
 <h3> Key Things to Note</h3>
