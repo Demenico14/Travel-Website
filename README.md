@@ -15,6 +15,13 @@ Laravel Travel Website
 
         - Dominic
 
+
+![Image1]()
+![Image2]()
+![Image3]()
+![Image4]()
+
+
 <h3> Key Things to Note</h3>
 
      If you are using XAMPP you need to change the env file back to this
