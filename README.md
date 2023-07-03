@@ -25,7 +25,9 @@ Laravel Travel Website
 <h3> Key Things to Note</h3>
 
      If you are using XAMPP you need to change the env file back to this
-        
+
+    1. Database Configaration settings
+    
 DB_CONNECTION=mysql</br>
 DB_HOST=127.0.0.1</br>
 DB_PORT=3306</br>
@@ -39,5 +41,13 @@ REDIS_HOST=127.0.0.1</br>
 REDIS_PASSWORD=null</br>
 REDIS_PORT=6379
 
-
+    2. Forget Password SMTP settings
+MAIL_MAILER=smtp</br>
+MAIL_HOST=mailpit</br>
+MAIL_PORT=1025</br>
+MAIL_USERNAME=your email</br>
+MAIL_PASSWORD=provided my your service provider</br>
+MAIL_ENCRYPTION= tls or ssl </br>
+MAIL_FROM_ADDRESS="hello@example.com" //your email address</br>
+MAIL_FROM_NAME="${APP_NAME}"
 
