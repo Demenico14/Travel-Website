@@ -72,12 +72,12 @@
             </a>
             <a href="{{ route('signup') }}">
                 <div class="menu-item">
-                    Sign Out
+                    Sign up
                 </div>
             </a>
             @endauth
         </div>
-        
+
     </div>
 </div>
 <!-- END TOP NAVIGATION -->

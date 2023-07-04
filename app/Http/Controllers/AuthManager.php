@@ -14,7 +14,7 @@ class AuthManager extends Controller
         if(Auth::check()){
             return redirect(route('home'));
         }
-        return view('login');
+        return view('Auth.login');
     }
 
 
@@ -22,7 +22,7 @@ class AuthManager extends Controller
         if(Auth::check()){
             return redirect(route('home'));
         }
-        return view('signup');
+        return view('Auth.signup');
     }
 
     function loginPost(Request $request){

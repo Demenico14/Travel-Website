@@ -24,7 +24,7 @@ html {
     scroll-behavior: smooth;
     position: relative;
     overflow-x: hidden;
-    
+
 }
 
 .nav {
@@ -120,8 +120,23 @@ html {
 }
 
 
-section {
-    padding: 9rem 0;
+.home-section{
+  position: relative;
+  background-color: var(--color-body);
+  min-height: 100vh;
+  top:0;
+  left:78px;
+  width: calc(100% - 78px);
+  transition: all .5s ease;
+  z-index: 2;
+}
+
+.home-section .text{
+  display: inline-block;
+  color:var(--color-default);
+  font-size: 25px;
+  font-weight: 500;
+  margin: 18px;
 }
 
 .slogan {

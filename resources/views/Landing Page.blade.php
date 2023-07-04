@@ -17,9 +17,11 @@
                              Whether by land or water, our customizable tours are tailored to meet your every need and ensure an adventure of a lifetime.
                         </p>
                         <div class="left-to-right play-on-scroll delay-4">
-                            <button>
-                                Book Now
-                            </button>
+                            <a href="{{route('bookings')}}">
+                                <button>
+                                    Book Now
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

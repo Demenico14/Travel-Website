@@ -13,7 +13,7 @@ use Illuminate\Support\Str;
 class ForgetPasswordManager extends Controller
 {
     function ForgetPassword(){
-        return view("forget-password");
+        return view("Auth.forget-password");
     }
     function ForgetPasswordPost(Request $request){
         $request->validate([
@@ -40,7 +40,7 @@ class ForgetPasswordManager extends Controller
 
 
     function resetPassword($token){
-        return view('new-passoword', compact('token'));
+        return view('Auth.new-passoword', compact('token'));
     }
 
     function resetPasswordPost(Request $request){

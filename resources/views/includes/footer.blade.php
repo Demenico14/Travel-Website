@@ -45,9 +45,11 @@
                 </h1>
 
                 <div class="input-group">
-                    <button>
-                        Book Now
-                    </button>
+                    <a href="{{route('bookings')}}">
+                        <button>
+                            Book Now
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

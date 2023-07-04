@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthManager;
+use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ForgetPasswordManager;
 use Illuminate\Support\Facades\Route;
 
@@ -37,3 +38,9 @@ Route::get('/reset-password/{token}', [ForgetPasswordManager::class, 'resetPassw
 ->name('reset.password');
 Route::post('/reset-password', [ForgetPasswordManager::class, 'resetPasswordPost'])
 ->name('reset.password.post');
+
+Route::get('Duck Inc./bookings', [BookingController::class, 'Booking'])->name('bookings');
+Route::post('Duck Inc./bookings', [BookingController::class, 'BookingStore'])->name('bookings.store');
+Route::get('Duck Inc./bookings/{book}/edit', [BookingController::class, 'Edit'])->name('bookings.edit');
+Route::get('Duck Inc./Trips', [BookingController::class,'Trips'])->name('trips');
+Route::get('Duck Inc./Message', [BookingController::class,'Message'])->name('message');
