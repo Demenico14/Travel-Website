@@ -1,5 +1,5 @@
 
-# v1-Travel Booking Website
+# Travel Booking Website
 
 
          _   _              _   _                   _
